@@ -143,8 +143,12 @@ body {
     }
 }
 
-@media (max-width:49em) {
+@media (max-width:50em) {
     .nav-item {
         margin-left: 0;
+    }
+
+    .marketing .profile.row .col-md-8 {
+        margin-top: 20px;
     }
 }
