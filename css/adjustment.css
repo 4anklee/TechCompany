@@ -136,20 +136,20 @@ body {
     }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 50em) {
 
     .featurette-heading {
         margin-top: 7rem;
     }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 62em) {
     .toggler-icon {
         display: none;
     }
 }
 
-@media (max-width:50em) {
+@media (max-width:62em) {
     .nav-item {
         margin-left: 0;
     }
