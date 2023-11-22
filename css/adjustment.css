@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Bangers;
+    src: url('font/Bangers-Regular.ttf') format('woff2')
+}
+
 body {
     padding-bottom: 3rem;
     color: #5a5a5a;
@@ -25,7 +30,7 @@ body {
 }
 
 .toggler-icon {
-    background-color: white;
+    background-color: black;
     display: block;
     position: absolute;
     height: 3px;
@@ -88,6 +93,7 @@ body {
     height: 35rem;
     background-color: #777;
 }
+
 .carousel-item > img {
     position: absolute;
     top: 0;
@@ -151,4 +157,11 @@ body {
     .marketing .profile.row .col-md-8 {
         margin-top: 20px;
     }
+}
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    height: 0;
 }

@@ -15,10 +15,20 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark opacity-75">
-        <div class="container">
-            <a class="navbar-brand" href="#">Carousel</a>
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(255,255,255,0.5)">
+        <div class="container opacity-100">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/index/COMP-LOGO.png"
+                     style="height: 50px; width: 150px"
+                     alt="comp-logo">
+            </a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                    aria-controls="#navbarCollapse"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="toggler-icon top-bar"></span>
                 <span class="toggler-icon middle-bar"></span>
                 <span class="toggler-icon bottom-bar"></span>
@@ -26,7 +36,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">
+                            <img src="image/index/HOME.png"
+                                 style="height: 50px; width: 150px; object-fit: contain"
+                                 alt="HOME"></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle"
@@ -35,17 +48,41 @@
                            data-bs-toggle="dropdown"
                            aria-expanded="false"
                            href="#">
-                            Link
+                            <img src="image/index/MEMBER.png"
+                                 style="height: 50px; width: 150px; object-fit: contain"
+                                 alt="member">
                         </a>
                         <ul class="dropdown-menu"
-                        aria-labelledby="navbarDropdown">
-                            <li><a href="#" class="dropdown-item">Link#1</a></li>
-                            <li><a href="#" class="dropdown-item">Link#2</a></li>
-                            <li><a href="#" class="dropdown-item">Link#3</a></li>
+                            aria-labelledby="navbarDropdown">
+                            <li>
+                                <a href="Angela's%20Page.html" class="dropdown-item">
+                                    <img src="image/index/ANGELA.png"
+                                         style="height: 50px; width: 150px; object-fit: contain"
+                                         alt="angela">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Frank's%20Page.html" class="dropdown-item">
+                                    <img src="image/index/FRANK.png"
+                                         style="height: 50px; width: 150px; object-fit: contain"
+                                         alt="frank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Evelyn%20page.html" class="dropdown-item">
+                                    <img src="image/index/EVELYN.png"
+                                         style="height: 50px; width: 150px; object-fit: contain"
+                                         alt="evelyn">
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
+                        <a class="nav-link" href="Contact%20Us.html">
+                            <img src="image/index/CONTACT.png"
+                                 style="height: 50px; width: 150px; object-fit: contain"
+                                 alt="contact us">
+                        </a>
                     </li>
                 </ul>
             </div>

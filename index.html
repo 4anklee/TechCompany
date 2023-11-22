@@ -12,13 +12,23 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/adjustment.css" rel="stylesheet">
 </head>
-<body>
+<body style="font-family:'.AppleSystemUIFont', serif">
 
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark opacity-75">
-        <div class="container">
-            <a class="navbar-brand" href="#">Group2</a>
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(255,255,255,0.5)">
+        <div class="container opacity-100">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/index/COMP-LOGO.png"
+                     style="height: 50px; width: 150px"
+                     alt="comp-logo">
+            </a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                    aria-controls="#navbarCollapse"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="toggler-icon top-bar"></span>
                 <span class="toggler-icon middle-bar"></span>
                 <span class="toggler-icon bottom-bar"></span>
@@ -26,7 +36,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">
+                            <img src="image/index/HOME.png"
+                                 style="height: 50px; width: 150px; object-fit: contain"
+                                 alt="HOME"></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle"
@@ -35,17 +48,41 @@
                            data-bs-toggle="dropdown"
                            aria-expanded="false"
                            href="#">
-                            Members
+                            <img src="image/index/MEMBER.png"
+                                 style="height: 50px; width: 150px; object-fit: contain"
+                                 alt="member">
                         </a>
                         <ul class="dropdown-menu"
                         aria-labelledby="navbarDropdown">
-                            <li><a href="#" class="dropdown-item">Angela Chen</a></li>
-                            <li><a href="#" class="dropdown-item">Frank Lee</a></li>
-                            <li><a href="#" class="dropdown-item">Evelyn Chang</a></li>
+                            <li>
+                                <a href="Angela's%20Page.html" class="dropdown-item">
+                                    <img src="image/index/ANGELA.png"
+                                         style="height: 50px; width: 150px; object-fit: contain"
+                                         alt="angela">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Frank's%20Page.html" class="dropdown-item">
+                                    <img src="image/index/FRANK.png"
+                                         style="height: 50px; width: 150px; object-fit: contain"
+                                         alt="frank">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Evelyn%20page.html" class="dropdown-item">
+                                    <img src="image/index/EVELYN.png"
+                                         style="height: 50px; width: 150px; object-fit: contain"
+                                         alt="evelyn">
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
+                        <a class="nav-link" href="Contact%20Us.html">
+                            <img src="image/index/CONTACT.png"
+                                 style="height: 50px; width: 150px; object-fit: contain"
+                                 alt="contact us">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -55,16 +92,10 @@
 
 <main role="main">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="carousel-item position-relative active d-flex" style="background-image: url(image/index/INTRO.png);">
                 <div class="container">
-                    <div class="carousel-caption text-left">
-                        <h1>Group2 Company</h1>
-                        <p>Welcome to our company. We are Group2. Are you looking for a good quality website with affordable price? Don't worry!  We aim to create a wonderful website for you.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Get our info.</a></p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -77,55 +108,67 @@
                 <img class="rounded-circle" src="images/Angela.JPG" alt="Angela's image" width="140" height="140">
                 <h2>Angela Chen</h2>
                 <p>I'm Angela, a student at Ensign College and a member of Group2 Company, I complete parts of Home page and whole Angela's page.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">Click to see more &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Angela's%20Page.html" role="button">Click to see more &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Frank Lee</h2>
                 <p>Write down sth about yourself.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">Click to see more &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Frank's%20Page.html" role="button">Click to see more &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Evelyn Chang</h2>
                 <p>Write down sth about yourself.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">Click to see more &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Evelyn%20page.html" role="button">Click to see more &raquo;</a></p>
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette d-flex justify-content-center">
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <h2 class="featurette-heading">Customized Web Design Solutions<span class="text-muted">It'll blow your mind.</span></h2>
+                <p class="lead">
+                    At our web design company, we specialize in crafting bespoke websites that cater specifically to the unique needs of each client.
+                    Our expertise lies in designing distinctive user interfaces that are not only visually appealing but also highly functional.
+                    We emphasize creating responsive designs to ensure an optimal viewing experience across various devices and screen sizes, making the website accessible and engaging for all users.
+                </p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <img class="featurette-image img-fluid mx-auto" src="image/index/SOL.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div class="col-md-7 order-md-2 justify-content-center">
+                <h2 class="featurette-heading">Search Engine Optimization (SEO) and Digital Marketing Expertise <span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">
+                    In our approach, we seamlessly integrate SEO best practices into our web designs, aiming to boost the website's visibility on search engines.
+                    This involves optimizing the website’s content, structure, and meta tags for better search engine rankings.
+                    Additionally, we offer digital marketing services, including social media marketing, content creation, and pay-per-click advertising, to enhance the online presence of the website and attract more visitors.
+                </p>
             </div>
-            <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <div class="col-md-5 order-md-1 d-flex justify-content-center">
+                <img class="featurette-image img-fluid mx-auto" src="image/index/SEO2.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div class="col-md-7 justify-content-center">
+                <h2 class="featurette-heading">Comprehensive Technical Support and Maintenance <span class="text-muted">Checkmate.</span></h2>
+                <p class="lead">
+                    Providing post-launch support is a key aspect of our services.
+                    We ensure regular updates to keep the website in line with the latest web standards and technologies, troubleshoot any technical issues, and maintain robust security measures to protect against online threats.
+                    Our continuous maintenance efforts are focused on keeping the website running smoothly, ensuring a consistent and reliable user experience for all visitors.
+                </p>
             </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <div class="col-md-5 d-flex justify-content-center">
+                <img class="featurette-image img-fluid mx-auto" src="image/index/TS.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
             </div>
         </div>
 
@@ -162,6 +205,32 @@
         </table>
 
         <hr class="featurette-divider">
+
+<!--        <div id="reviewCarousel" class="carousel slide" data-ride="carousel">-->
+<!--            <div class="carousel-inner">-->
+<!--                <div class="carousel-item active">-->
+<!--                    <p>Review 1 content...</p>-->
+<!--                </div>-->
+<!--                <div class="carousel-item">-->
+<!--                    <p>Review 2 content...</p>-->
+<!--                </div>-->
+<!--                <div class="carousel-item">-->
+<!--                    <p>Review 3 content...</p>-->
+<!--                </div>-->
+<!--                &lt;!&ndash; More carousel items &ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <nav aria-label="Page navigation">-->
+<!--            <ul class="pagination justify-content-center">-->
+<!--                <li class="page-item"><a class="page-link" href="#reviewCarousel" data-slide-to="0">1</a></li>-->
+<!--                <li class="page-item"><a class="page-link" href="#reviewCarousel" data-slide-to="1">2</a></li>-->
+<!--                <li class="page-item"><a class="page-link" href="#reviewCarousel" data-slide-to="2">3</a></li>-->
+<!--                &lt;!&ndash; More page items &ndash;&gt;-->
+<!--            </ul>-->
+<!--        </nav>-->
+
+<!--        <hr class="featurette-divider">-->
 
     </div>
 
