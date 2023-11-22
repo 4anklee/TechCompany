@@ -73,7 +73,7 @@ body {
 }
 
 .nav-item {
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .dropdown-toggle::after {
@@ -124,32 +124,17 @@ body {
     letter-spacing: -.05rem;
 }
 
-@media (min-width: 40em) {
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
-    }
 
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
 
-@media (min-width: 50em) {
-
-    .featurette-heading {
-        margin-top: 7rem;
-    }
-}
-
-@media (min-width: 62em) {
+@media (max-width: 800px) {
     .toggler-icon {
+        display: block;
+    }
+
+    .nav-link-image {
         display: none;
     }
-}
 
-@media (max-width:62em) {
     .nav-item {
         margin-left: 0;
     }
@@ -158,6 +143,14 @@ body {
         margin-top: 20px;
     }
 }
+
+@media (min-width: 800px) {
+
+    .toggler-icon {
+        display: none;
+    }
+}
+
 .carousel-item {
     background-size: cover;
     background-position: center;
